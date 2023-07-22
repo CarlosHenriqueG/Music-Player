@@ -94,6 +94,7 @@ body {
 
 .volume {
   font-size: 22px;
+  cursor: default;
 }
 
 .playpause-track:hover,
@@ -102,8 +103,10 @@ body {
   opacity: 1;
 }
 
-.slider_container {
-  display: block;
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
 }
 
 .seek_slider,
